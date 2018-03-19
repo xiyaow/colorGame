@@ -41,7 +41,7 @@ function setUpSquares(){
 				changeColors(clickedColor);
 				resetButton.textContent = "Play Again?";
 			}else{
-				this.style.backgroundColor = "#232323";
+				this.style.backgroundColor = "#F8EEE7";
 				messageDisplay.textContent = "Try Again!";
 			}
 		});
@@ -63,7 +63,7 @@ function reset(){
 			squares[i].style.display = "none";
 		}
 	}
-	h1.style.backgroundColor = "steelblue";
+	h1.style.backgroundColor = "#94618E";
 	messageDisplay.textContent = "";
 	resetButton.textContent = "new colors";
 
